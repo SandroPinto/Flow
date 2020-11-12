@@ -23,7 +23,8 @@ public class TextApp implements IApp<String> {
 
   private String makeResponse(String request) {
     String value = request.replace("Request:", "");
-    return "ACK:" + value;
+    //return "ACK:" + value;
+    return value;
   }
 
   public String popResponse() {
